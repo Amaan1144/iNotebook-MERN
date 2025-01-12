@@ -7,4 +7,7 @@
     .addnotes {
         width: auto;
     }
+    .img-fluid {
+        display:none;
+    }
 }
