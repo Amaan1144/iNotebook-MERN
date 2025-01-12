@@ -4,7 +4,7 @@ export const NoteContext = createContext()
 
 export function NoteProvider(props) {
 
-    const HOST = "http://localhost:8080"
+    const HOST = "https://inotebook-cloud-2z5v.onrender.com"
 
     const initialNotes = []
 
