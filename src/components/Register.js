@@ -39,7 +39,7 @@ function Register() {
         validationSchema: registerSchema,
         onSubmit: async (values) => {
             const {username, email, password} = values
-            const response = await fetch("http://localhost:8080/api/auth/createuser", {
+            const response = await fetch("https://inotebook-cloud-2z5v.onrender.com/api/auth/createuser", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
