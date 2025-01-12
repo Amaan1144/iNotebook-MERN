@@ -66,7 +66,7 @@ function Register() {
                     <img className="img-fluid" src={avataars} alt="register" style={{ width: "100%", height: "100vh", objectFit: "cover" }} />
                 </div>
 
-                <div className="col-md-7 ps-5 pe-5 pt-5" style={{ width: "50%" }}>
+                <div className="col-md-7 ps-5 pe-5 pt-5 signup-container">
                     <Button className="mb-4" variant="text" color="secondary" startIcon={<ArrowBackIcon />} component={Link} to="/" style={{ textTransform: "none", fontFamily: "'Poppins', sans-serif" }}>Home</Button>
                     <h2 style={{ fontWeight: "Bold" }}>Create a new account</h2>
                     <p className="mb-4">Use your email to create a new account</p>
