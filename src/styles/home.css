@@ -2,6 +2,10 @@
     width: 600px;
 }
 
+.signup-container {
+    width:50%;
+}
+
 
 @media(max-width: 600px){
     .addnotes {
@@ -9,5 +13,8 @@
     }
     .img-fluid {
         display:none;
+    }
+    .signup-container {
+    width:100%;
     }
 }
